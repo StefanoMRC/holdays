@@ -13,4 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HolidayController@index' )->name('welcome');
+
+
+Route::resource('/holiday', 'HolidayController' );
+
+
